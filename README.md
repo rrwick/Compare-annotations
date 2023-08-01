@@ -22,6 +22,12 @@ git clone https://github.com/rrwick/Compare-annotations.git
 Compare-annotations/compare_annotations.py --help
 ```
 
+__2023 update__: When I tried this script using Biopython v1.81, it no longer works. But it still works using Biopython v1.78, so you might need to make a conda environment like this to run the script:
+```bash
+conda create -n old_biopython biopython=1.78
+conda activate old_biopython
+```
+
 
 
 ## Example usage
